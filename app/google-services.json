@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1041366083415",
+    "project_id": "lorevadb",
+    "storage_bucket": "lorevadb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041366083415:android:e06fe06f3da88a1e370012",
+        "android_client_info": {
+          "package_name": "com.example.lorevastore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1041366083415-6n4926348291nq4ammia2l99jghd03u4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3EwmaRzIYWoTDJ8AXs6q-pOyqgPh4XdM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1041366083415-6n4926348291nq4ammia2l99jghd03u4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
