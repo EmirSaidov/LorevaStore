@@ -11,8 +11,12 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/LorevaStore/app/src/main/res/drawable-v24/ic_plus_v2.xml" value="0.21145833333333333" />
         <entry key="..\:/Users/User/AndroidStudioProjects/LorevaStore/app/src/main/res/drawable/cart_button_bg.xml" value="0.22135416666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/LorevaStore/app/src/main/res/drawable/ic_profile_background.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LorevaStore/app/src/main/res/layout/activity_login.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/User/AndroidStudioProjects/LorevaStore/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/User/AndroidStudioProjects/LorevaStore/app/src/main/res/layout/activity_productdetails.xml" value="0.42325056433408575" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LorevaStore/app/src/main/res/layout/activity_profile.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LorevaStore/app/src/main/res/layout/activity_register.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LorevaStore/app/src/main/res/layout/activity_register2.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/User/AndroidStudioProjects/LorevaStore/app/src/main/res/layout/category_row_item.xml" value="0.1953125" />
         <entry key="..\:/Users/User/AndroidStudioProjects/LorevaStore/app/src/main/res/layout/product_row_item.xml" value="0.67" />
         <entry key="..\:/Users/User/AndroidStudioProjects/LorevaStore/app/src/main/res/layout/products_row_item.xml" value="0.33" />

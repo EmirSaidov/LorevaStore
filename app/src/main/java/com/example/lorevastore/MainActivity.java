@@ -4,12 +4,19 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.example.lorevastore.adapter.ProductAdapter;
 import com.example.lorevastore.adapter.ProductCategoryAdapter;
 import com.example.lorevastore.model.ProductCategory;
 import com.example.lorevastore.model.Products;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,6 +26,7 @@ import java.util.List;
     ProductCategoryAdapter productCategoryAdapter;
     ProductAdapter productAdapter;
     RecyclerView productCatRecycler,prodItemRecycler;
+    private FirebaseAuth mAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +53,23 @@ import java.util.List;
 
         setProdItemRecycler(productsList);
 
+        mAuth = FirebaseAuth.getInstance();
+
+        FirebaseUser user = mAuth.getCurrentUser();
+
+        String email = user.getEmail();
+
+        TextView welcomeText =  findViewById(R.id.text_greeting);
+        welcomeText.setText("Welcome : " + email);
+
+        ImageView logoutButton =  findViewById(R.id.profile_pic);
+        logoutButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, ProfileActivity.class));
+                finish();
+            }
+        });
     }
 
     private void setProductRecycler(List<ProductCategory> productCategoryList){
